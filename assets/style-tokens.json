@@ -1,18 +1,8 @@
 {
   "name": "Quiet Academic Slides",
   "inspiration": "Seven-page From Noise to Image user-authored deck; style distilled independently from its subject",
-  "philosophy": [
-    "Less is more",
-    "Structure communicates",
-    "Accuracy before decoration",
-    "Consistent, not identical",
-    "Whitespace is deliberate"
-  ],
-  "canvas": {
-    "ratio": "16:9",
-    "width_inches": 13.3333333333,
-    "height_inches": 7.5
-  },
+  "philosophy": ["Less is more", "Structure communicates", "Accuracy before decoration", "Consistent, not identical", "Whitespace is deliberate"],
+  "canvas": {"ratio": "16:9", "width_inches": 13.3333333333, "height_inches": 7.5},
   "colors": {
     "paper": "FAF8F3",
     "ink": "19392F",
@@ -29,18 +19,9 @@
   },
   "typography": {
     "display": "Palatino Linotype",
-    "display_fallbacks": [
-      "TeX Gyre Pagella",
-      "URW Palladio L",
-      "Book Antiqua",
-      "Liberation Serif"
-    ],
+    "display_fallbacks": ["TeX Gyre Pagella", "URW Palladio L", "Book Antiqua", "Liberation Serif"],
     "body": "Lato",
-    "body_fallbacks": [
-      "Aptos",
-      "Carlito",
-      "Source Sans 3 static"
-    ],
+    "body_fallbacks": ["Aptos", "Carlito", "Source Sans 3 static"],
     "optional_prompt": "Palatino Linotype Italic",
     "equations": "Cambria Math / correctly rendered vector LaTeX",
     "forbid_variable_font_unless_verified": true,
@@ -50,31 +31,17 @@
     "agenda_title_pt": 37,
     "agenda_number_pt": 34,
     "agenda_question_pt": 24,
-    "body_recommended_pt": [
-      16,
-      20
-    ],
-    "small_label_pt": [
-      11,
-      14
-    ],
+    "body_recommended_pt": [16, 20],
+    "small_label_pt": [11, 14],
     "footnote_minimum_pt": 9
   },
   "layout": {
-    "outer_margin_inches": 0.7,
+    "outer_margin_inches": 0.70,
     "section_title_left_inches": 1.63,
     "section_number_left_inches": 0.58,
     "top_title_inches": 0.31,
     "page_number_bottom_inches": 7.12,
-    "archetypes": [
-      "editorial-hero",
-      "three-question-arc",
-      "two-lane-mechanism",
-      "sampling-trajectory",
-      "relationship-matrix",
-      "research-open-question",
-      "returning-close"
-    ]
+    "archetypes": ["editorial-hero", "three-question-arc", "two-lane-mechanism", "sampling-trajectory", "relationship-matrix", "research-open-question", "returning-close"]
   },
   "composition_constraints": {
     "max_main_claims_per_slide": 1,
