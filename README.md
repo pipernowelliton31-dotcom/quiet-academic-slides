@@ -43,7 +43,7 @@ assets/
   reference-pages/
 ```
 
-The full distributable Skill ZIP, editable starter deck and visual references are separately available from the original ChatGPT conversation. The source design intentionally avoids bundling or redistributing font binaries.
+[Download the complete Skill ZIP](skill.zip), [editable starter deck](assets/quiet-academic-starter.pptx), and [visual reference sheet](assets/reference-pages/contact-sheet.jpg) directly from this repository. The source design intentionally avoids bundling or redistributing font binaries.
 
 ## Visual workflow
 
