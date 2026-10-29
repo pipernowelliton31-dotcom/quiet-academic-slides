@@ -16,6 +16,7 @@ Make scholarly slides that feel calm and exact. The inherited design philosophy 
 - `references/reference-gallery.md` — how to study reference pages without overfitting; read when matching a specific composition.
 - `assets/style-tokens.json` — machine-readable palette, typography, ratios, and spacing. Reference source of truth.
 - `assets/reference-pages/reference-01.jpg` through `reference-07.jpg` — anonymized visual references. Read selectively based on required page job; they are not slides to insert verbatim.
+- `assets/cover-close/1.png` through `15.png` — user-provided visuals that may be placed directly on opening and closing slides when appropriate. Select for the subject and preserve aspect ratio.
 - `assets/quiet-academic-starter.pptx` — an editable, generic layout starter made of native PowerPoint elements. Optional structural aid, not a fixed template.
 - `scripts/build_starter.js` — reproducible starter generation, when Node/PptxGenJS are available.
 - `scripts/audit_deck.py` — machine checks for fonts, overflow, suspicious distortions, and low-legibility text. Run after every substantial export.
@@ -45,7 +46,7 @@ Make scholarly slides that feel calm and exact. The inherited design philosophy 
 - **Editorial but rigorous**: an elegant serif for display; static sans-serif for functional labels; restrained small caps; mathematical notation rendered with true proportional scaling.
 - **One light design language**: warm-ivory canvas by default, deep forest ink, muted sage + powder blue. Do not surprise the audience with an unrelated full-page dark green or candy-colored slide.
 - **Graphical causality**: structure teaches. A matrix explains cross-relationships; a progression shows time; a split shows contrasts; a boundary signals separation.
-- **Image integrity**: source high-resolution relevant imagery; preserve full subject, intentional crop, realistic aspect. A decorative image must not displace key evidence.
+- **Image integrity**: source high-resolution relevant imagery; preserve full subject, intentional crop, realistic aspect. The bundled `assets/cover-close/` images may be used directly on cover and closing slides. A decorative image must not displace key evidence.
 - **No gratuitous doodles or unmotivated icons.** No random supplementary phrases, fake statistics, made-up charts, unnecessary defensive disclaimers, or footnotes on the visible slide.
 - **No middle dot `·` as prose separator.** Use paragraph spacing, hierarchy, or a thin rule instead.
 - **Do not duplicate the exact reference deck's topic, personal details, research images, or text** when producing a new topic. Its assets illustrate *style*, not a content library.
